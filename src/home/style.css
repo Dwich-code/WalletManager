@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+    text-align: center;
+    background-color: bisque;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+    margin-right: 10px;
+    transition: background-color 0.3s, text-decoration 0.3s;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+li:hover {
+    background-color: coral;
+    text-decoration: underline;
+}
+
+h1 {
+  font-family: 'DM Serif Text', serif;
+  font-style: italic;
+  font-size: 120px;
+}
+
+header h2 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 60px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
