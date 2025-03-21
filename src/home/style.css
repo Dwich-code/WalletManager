@@ -5,6 +5,7 @@ body {
     background-color: bisque;
     font-family: "DM Serif Text", serif;
     font-style: normal;
+    animation: SlideDown 0.5s ease-out;
 }
 
 ul {
@@ -41,4 +42,15 @@ header h2 {
 a {
     text-decoration: none;
     color: black;
+}
+
+@keyframes SlideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
